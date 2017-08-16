@@ -21,6 +21,8 @@
 #define 到 >>
 #define 加 +
 #define 减 -
+#define 乘 *
+#define 除 /
 #define 为 =
 #define 变成 =
 #define 小于 <
@@ -55,6 +57,7 @@
 #define 函数，使用这些 (
 #define 参数 )
 #define 终止循环 break
+#define 空数组 []
 #define 数组(x) [x]
 #define 第(x) [x-1]
 #define 定义整数数组(x,len) int x[len]
@@ -63,3 +66,11 @@
 #define 的函数 ()
 #define 返回整数位置的 int*
 #define 定义整数的位置 int*
+#define 新的 new
+#define 删掉 delete
+#define 小数 float
+#define 高级小数 double
+#define 定义小数 float
+#define 定义高级小数 double
+#define 返回小数的 float
+#define 返回高级小数的 double
