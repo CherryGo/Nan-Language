@@ -1,102 +1,59 @@
-﻿#define 空 void
-#define 定义空 void
-#define 返回空的 void
-#define 整数 int
-#define 定义整数 int
-#define 返回整数的 int
-#define 使用 using
-#define 命名空间 namespace
-#define 标准命名空间 std
-#define 主 main
-#define 输出 cout
-#define 换行 endl
-#define 返回 return
-#define 成功 0
-#define ； ;
-#define 和 ,
-#define ， ,
-#define 一个 <<
-#define （ (
-#define ） )
-#define 字符串(x) #x
-#define 函数 ()
-#define 输入 cin
-#define 到 >>
-#define 加 +
-#define 减 -
-#define 乘 *
-#define 除 /
-#define 为 =
-#define 变成 =
-#define 小于 <
-#define 大于 >
-#define 等于 ==
-#define 不等于 !=
-#define 真 true
-#define 假 false
-#define 真假值 bool
-#define 定义真假值 bool
-#define 返回真假值的 bool
-#define 如果 if(
-#define 的话 )
-#define 就 {
-#define 好了 }
-#define 从这里开始 {
-#define 到这里结束 }
-#define 当 while(
-#define 时 )
-#define 就一直做 {
-#define 一开始就让 for(
-#define 然后如果 ;
-#define 就做 ;
-#define 和下面 ){
-#define 这些事 }
-#define 永远循环 while(1)
-#define 定义字符数串 string
-#define 空串 ""
-#define 或者 ||
-#define 并且 &&
-#define 否则 else
-#define 好了，否则 }else
-#define 忽略这些(x) ;
-#define 注释(x) ;
-#define 备注(x) ;
-#define 空格 " "
-#define 的 .
-#define 获取 get
-#define 函数，使用这些 (
-#define 参数 )
-#define 终止循环 break
-#define 空数组 []
-#define 数组(x) [x]
-#define 第(x) [x-1]
-#define 定义整数数组(x,len) int x[len]
-#define 指针 *
-#define 的指针 *
-#define 返回整数指针的 int*
-#define 数组的第(x) [x-1]
-#define 的函数 ()
-#define 新的 new
-#define 删掉 delete
-#define 小数 float
-#define 定义小数 float
-#define 返回小数的 float
-#define 返回小数指针的 float*
-#define 高级小数 double
-#define 定义高级小数 double
-#define 返回高级小数的 double
-#define 返回高级小数指针的 double*
-#define 长整数 float
-#define 定义长整数 float
-#define 返回长整数的 float
-#define 返回长整数指针的 float*
-#define 类 class
-#define 定义类 class
-#define 保护的 protected
-#define 公开的 public
-#define 自己的 private
-#define 有 :
-#define 中的 ::
-#define 定义朋友 friend
-#define 取地址 &
-#define 析构 ~
+#include "include\array.h"
+#include "include\const.h"
+#include "include\kwdmisc.h"
+#include "include\operator.h"
+#include "include\pointerdef.h"
+#include "include\str.h"
+#include "include\structdef.h"
+#include "include\typedef.h"
+
+//Assorted
+
+#define ʹ�� using
+#define �����ռ� namespace
+#define ��׼�����ռ� std
+#define �� main
+#define ��� cout
+#define ���� endl
+
+#define �� ;
+#define �� ,
+#define �� ,
+#define һ�� <<
+#define �� (
+#define �� )
+
+
+#define ���� cin
+#define �� >>
+
+#define ������Щ(x) 
+#define ע��(x) 
+#define ��ע(x) 
+
+#define �� .
+#define ��ȡ get
+
+#define �µ� new
+#define ɾ�� delete
+#define С�� float
+
+#define �� class
+#define ������ class
+#define ������ protected
+#define ������ public
+#define �Լ��� private
+#define �� :
+#define �е� ::
+#define �������� friend
+#define ȡ��ַ &
+#define ���� ~
+
+#define ���� &
+#define ���õ� &
+#define ������ &
+
+#define ��1 ++
+#define ��1 --
+
+//2017.8.22, user19990313
